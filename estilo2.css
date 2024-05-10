@@ -1,0 +1,213 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 930px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container-one {
+    background-color: #5f3bf0;
+    text-align: center;
+    border-radius: 26px;
+    color: white;
+    width: 370px;
+    height: 430px;
+    padding-top: 40px;
+    background: linear-gradient(to top, #5f3bf0, #f5f5f5 950%);
+}
+
+.circulo {
+    border-radius: 50%;
+    outline: none;
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    background-color: #5f3bf0;
+    box-shadow: 15px 15px 10px #5f3bf0, 3px 3px 8px 1px #252440;
+    background: linear-gradient(to top, #5f3bf0, #f5f5f5 950%);
+}
+
+.numero {
+    font-size: 50pt;
+    padding-top: 38px;
+}
+
+.subtitulo,
+p {
+    width: 73%;
+    margin: auto;
+}
+
+.subtitulo {
+    padding-top: -4px;
+    font-size: 14pt;
+    width: 86%;
+}
+
+.subtitulo2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: -9px;
+}
+
+.container-two {
+    background-color: #f5f5f5;
+    width: 370px;
+    height: 430px;
+    border-radius: 26px;
+    padding-top: 40px;
+    box-shadow: 8px 8px 8px #000057, 4px 4px 8px 1px #f5f5f5;
+    opacity: 0.7;
+}
+
+.sumario {
+    padding-left: 50px;
+}
+
+.reaction {
+    display: flex;
+    background-color: #ffb68c;
+    height: 46px;
+    border-radius: 9px;
+    margin: 0 50px;
+}
+
+.raio {
+    width: 18px;
+    height: 18px;
+    padding: 19px;
+    padding-top: 15px;
+}
+
+.reaction1 {
+    color: red;
+    font-size: 13pt;
+}
+
+.divisão1 {
+    text-align: right;
+    padding-right: 29px;
+}
+
+.negrito {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.memory {
+    display: flex;
+    background-color: #fdff8b;
+    height: 46px;
+    border-radius: 9px;
+    margin: 0 50px;
+    margin-top: 15px;
+}
+
+.cerebro {
+    width: 18px;
+    height: 18px;
+    padding: 19px;
+    padding-top: 13px;
+}
+
+.memory2 {
+    color: #b9c000;
+    font-size: 13pt;
+}
+
+.divisão2 {
+    text-align: right;
+    padding-right: 29px;
+}
+
+.negrito2 {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.verbal {
+    display: flex;
+    background-color: #dcffc8;
+    height: 46px;
+    border-radius: 9px;
+    margin: 0 50px;
+    margin-top: 15px;
+}
+
+.comente {
+    width: 22px;
+    height: 22px;
+    padding: 19px;
+    padding-top: 13px;
+}
+
+.verbal1 {
+    color: green;
+    font-size: 13pt;
+}
+
+.divisão3 {
+    text-align: right;
+    padding-right: 29px;
+}
+
+.negrito3 {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.visual {
+    display: flex;
+    background-color: #cadffb;
+    height: 46px;
+    border-radius: 9px;
+    margin: 0 50px;
+    margin-top: 15px;
+    text-indent: 4px;
+}
+
+.olho {
+    width: 19px;
+    height: 19px;
+    padding: 19px;
+    padding-top: 13px;
+}
+
+.visual1 {
+    color: blue;
+    font-size: 13pt;
+}
+
+.divisão4 {
+    text-align: right;
+    padding-right: 29px;
+}
+
+.negrito4 {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.continue {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    margin-top: 33px;
+    width: 267px;
+    height: 46px;
+    background-color: #252440;
+    color: white;
+    border: 0 none;
+    font-size: 13pt;
+    border-radius: 27px;
+}
+
+@media screen and (max-width: 751px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+}

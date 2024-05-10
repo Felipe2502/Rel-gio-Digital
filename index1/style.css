@@ -1,0 +1,195 @@
+.container {
+    text-align: center;
+}
+
+.cabeçalho {
+    background-color: #8b5be4;
+    width: 350px;
+    height: 420px;
+    border-radius: 26px;
+}
+
+#resultado {
+    line-height: 4.4;
+    color: white;
+    font-size: 18pt;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.circulo {
+    border-radius: 50%;
+    background-color: #8b5be4;
+    border: 1px solid black;
+    width: 190px;
+    height: 190px;
+    margin-top: -29px;
+    margin-left: 77px;
+    line-height: 0;
+    color: white;
+    font-size: 50pt;
+    font-family: sans-serif;
+}
+
+#numero2 {
+    font-size: 14pt;
+    color: white;
+}
+
+.paragrafo {
+    font-size: 13pt;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.cabeçalho2 {
+    background-color: #ebe9eb;
+    width: 350px;
+    height: 420px;
+    border-radius: 26px;
+    margin-left: 370px;
+    margin-top: -434px;
+}
+
+#sumario {
+    font-size: 18pt;
+    color: black;
+    line-height: 4.2;
+    text-indent: -100px;
+    font-family: sans-serif;
+}
+
+.reaction {
+    color: red;
+    font-size: 14pt;
+    text-align: left;
+    text-indent: 51px;
+    background-color: #ffb68c;
+    opacity: 0.6;
+    width: 270px;
+    height: 44px;
+    border-radius: 9px;
+    margin-left: 40px;
+    margin-top: -30px;
+    line-height: 2.4;
+}
+
+#divisão1 {
+    font-size: 14pt;
+    text-align: right;
+    letter-spacing: 4px;
+    margin-top: -50px;
+    padding-right: 56px;
+}
+
+.raioimg {
+    display: flex;
+    margin-top: -40px;
+    padding-left: 60px;
+    width: 19px;
+}
+
+.memory {
+    background-color: #fdff8b;
+    color: #cdd900;
+    width: 270px;
+    height: 44px;
+    border-radius: 9px;
+    font-size: 14pt;
+    line-height: 2.4;
+    margin-top: 23px;
+    margin-left: 40px;
+    text-indent: -87px;
+}
+
+#divisão2 {
+    font-size: 14pt;
+    text-indent: 184px;
+    letter-spacing: 4px;
+    margin-top: -51px;
+}
+
+.cerebroimg {
+    position: absolute;
+    margin-top: -38px;
+    width: 18px;
+}
+
+.verbal {
+    background-color: #dcffc8;
+    color: green;
+    text-align: left;
+    text-indent: 50px;
+    font-size: 14pt;
+    width: 250px;
+    height: 44px;
+    border-radius: 9px;
+    line-height: 2.4;
+    margin-left: 70px;
+    margin-top: 24px;
+}
+
+#divisão3 {
+    font-size: 14pt;
+    letter-spacing: 4px;
+    text-indent: 184px;
+    margin-top: -51px;
+}
+
+.comenteimg {
+    display: flex;
+    flex-direction: column;
+    width: 23px;
+    margin-top: -44px;
+    padding: 0px 85px;
+}
+
+.visual {
+    margin-top: 25px;
+    background-color: #cadffb;
+    color: blue;
+    border-radius: 9px;
+    font-size: 14pt;
+    width: 250px;
+    height: 44px;
+    line-height: 2.4;
+    margin-left: 70px;
+    text-align: left;
+    text-indent: 50px;
+}
+
+#divisão4 {
+    font-size: 14pt;
+    letter-spacing: 4px;
+    text-indent: 184px;
+    margin-top: -52px;
+}
+
+.olhoimg {
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    padding-left: 87px;
+    margin-top: -39px;
+}
+
+#input {
+    margin-top: 45px;
+    margin-left: 40px;
+    width: 240px;
+    height: 46px;
+    font-size: 12pt;
+    background-color: #252440;
+    color: white;
+    border-radius: 27px;
+    font-family: sans-serif;
+    line-height: 2.6;
+}
+
+@media screen and (max-width: 695px) {
+    .container {
+        flex-direction: column;
+    }
+}
