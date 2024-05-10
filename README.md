@@ -1,2 +1,2 @@
-# Rel-gio-Digital
+# Relógio-Digital
 Relógio digital responsivo
